@@ -33,8 +33,9 @@ $ npm run build
 
 ```
 
-How to config stylelint
-https://stylelint.io/user-guide/configuration/   конфига читать вот это
+#### How to config stylelint
+```
+### конфига читать вот это https://stylelint.io/user-guide/configuration/
 https://github.com/MerrickGit/material/blob/master/styleLint/02-Rules.md перевод на русском
 https://github.com/MerrickGit/material
 https://stylelint.io/user-guide/configuration/
@@ -45,3 +46,4 @@ https://stylelint.io/user-guide/configuration/
 	"css.validate": false,
 	"scss.validate": false
 	}
+```
