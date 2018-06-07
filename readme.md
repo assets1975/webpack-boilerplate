@@ -35,12 +35,16 @@ $ npm run build
 
 #### How to config stylelint
 ```
-### конфига читать вот это https://stylelint.io/user-guide/configuration/
-https://github.com/MerrickGit/material/blob/master/styleLint/02-Rules.md перевод на русском
+конфига читать вот это: https://stylelint.io/user-guide/configuration/
+перевод на русском: https://github.com/MerrickGit/material/blob/master/styleLint/02-Rules.md 
 https://github.com/MerrickGit/material
 https://stylelint.io/user-guide/configuration/
-нужно установить плагин npm install --save-dev stylelint
-в конфиге vscode
+```
+### Нужно установить плагин. 	
+npm install --save-dev stylelint
+
+### В конфиге vscode
+```
 	{
 	"stylelint.enable": true,
 	"css.validate": false,
