@@ -3,7 +3,7 @@ const webpack = require('webpack')
 const HtmlWebPackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
-const DEV_MODE = process.env.NODE_ENV === 'dev'
+const DEV_MODE = process.env.NODE_ENV === 'dev';
 
 module.exports = {
   devtool: DEV_MODE ? 'eval' : 'source-map',
